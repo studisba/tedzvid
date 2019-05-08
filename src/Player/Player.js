@@ -4,15 +4,17 @@ const useAudio = url => {
   const [audio] = useState(new Audio(url));
   const [playing, setPlaying] = useState(false);
 
-  /* audio.onended = () => { 
-      klasa = true;
-    }; */
-
   const toggle = () => setPlaying(!playing);
 
   useEffect(
     () => {
-      playing ? audio.play() : audio.pause();
+      if (playing) {
+        audio.play();
+        audio.onended = () => { setPlaying(!playing) };
+      } else {
+        audio.pause();
+        audio.currentTime = 0;
+      }
     },
     [audio, playing]
   );

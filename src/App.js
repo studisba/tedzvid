@@ -28,6 +28,9 @@ function App() {
             <Player url='../assets/audio/1 men nesaau.mp3'>
               MURTIČ
             </Player>
+            <Player url='../assets/audio/1 men nesaau.mp3'>
+              MURTA
+            </Player>
           </Underline>
         </Col>
       </Row>
