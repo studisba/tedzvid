@@ -1,7 +1,18 @@
 import React from 'react';
-import './App.scss';
+
+// Bootstrap
 import {Container, Row, Col} from 'react-bootstrap';
+
+// FontAwesome
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStroopwafel } from '@fortawesome/free-solid-svg-icons'
+
+// Other
+import './App.scss';
 import Underline from './Letters/Underline';
+
+library.add(faStroopwafel);
 
 function App() {
   return (
@@ -12,7 +23,7 @@ function App() {
       <Row>
         <Col>
           <Underline>
-            A
+            <FontAwesomeIcon icon="stroopwafel" /> A
           </Underline>
         </Col>
       </Row>
