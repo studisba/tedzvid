@@ -1,47 +1,55 @@
 @import url('https://fonts.googleapis.com/css?family=Amiri');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&subset=latin-ext');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.7rem;
+}
 
 .underLine {
   font-family: 'Amiri', serif;
 }
 
 span.ne-svira {
-  color: red;
+  color: inherit;
 }
 
 span.svira {
-  color: green;
+  font-family: 'Amiri', serif;
+  display: inline-block;
+  border: 1px solid #ddd;
+  padding: 0 .25em;
+  border-radius: .15em;
+  padding-top: .35em;
+  margin-left: .5rem;
 }
 
-.App {
-  text-align: center;
+.bosanski {
+  font-size: 1.8rem;
+  padding: 0 .25rem;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+span.arapski {
+  font-family: 'Amiri', serif;
+  padding: 0 .25em;
+  border-radius: .15em;
+  line-height: 2.5em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-center.col > span {
+  display: inline-block;
 }
 
-.App-link {
-  color: #61dafb;
+span.arap-red {
+  font-family: 'Amiri', serif;
+  color: red;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.opisLekcije {
+  font-size: 1.45rem;
+}
+
+.lekcije-wrapper {
+  border: 7px solid #4A2D1F;
+  padding: .5em 1em;
 }

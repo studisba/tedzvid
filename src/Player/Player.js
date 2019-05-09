@@ -12,6 +12,7 @@ const useAudio = url => {
       if (playing) {
         audio.play();
         audio.onended = () => { setPlaying(!playing) };
+        audio.volume = 0.1;
       } else {
         audio.pause();
         audio.currentTime = 0;
@@ -27,15 +28,14 @@ const Player = (props) => {
   const [playing, toggle] = useAudio(props.url);
 
   return (
-    <div>
-        <span
-            className={ playing ? 'svira' : 'ne-svira' }
-            onClick={toggle}
-        >
-            { playing ? 'Svira ' + props.children : props.children }
-        </span>
-    </div>
+      <span
+          id='rijeciAudio'
+          className={ playing ? 'svira' : 'ne-svira' }
+          onClick={toggle}
+      >
+          { playing ? props.children : props.children }
+      </span>
   );
 };
 
-export default Player;
+export default React.memo(Player);
