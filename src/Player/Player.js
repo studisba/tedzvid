@@ -1,18 +1,22 @@
 import React, { useState, useEffect } from "react";
 
 const useAudio = url => {
+  // TODO: SET State properly
   const [audio] = useState(new Audio(url));
   const [playing, setPlaying] = useState(false);
-
-  /* audio.onended = () => { 
-      klasa = true;
-    }; */
 
   const toggle = () => setPlaying(!playing);
 
   useEffect(
     () => {
-      playing ? audio.play() : audio.pause();
+      if (playing) {
+        audio.play();
+        audio.onended = () => { setPlaying(!playing) };
+        audio.volume = 0.1;
+      } else {
+        audio.pause();
+        audio.currentTime = 0;
+      }
     },
     [audio, playing]
   );
@@ -24,15 +28,14 @@ const Player = (props) => {
   const [playing, toggle] = useAudio(props.url);
 
   return (
-    <div>
-        <span
-            className={ playing ? 'svira' : 'ne-svira' }
-            onClick={toggle}
-        >
-            { playing ? 'Svira ' + props.children : props.children }
-        </span>
-    </div>
+      <span
+          id='rijeciAudio'
+          className={ playing ? 'svira' : 'ne-svira' }
+          onClick={toggle}
+      >
+          { playing ? props.children : props.children }
+      </span>
   );
 };
 
-export default Player;
+export default React.memo(Player);
