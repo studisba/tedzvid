@@ -12,7 +12,7 @@ import Player from '../Player/Player';
 function L1() {
     console.log(data);
 
-    const r1 = data.upper.map((dat) => {
+    const r1 = data.lekcije.map((dat) => {
       return <span key={'key' + dat.id}>
       <Player url={dat.url} key={'p' + dat.id}>
         <Arabic
@@ -44,6 +44,7 @@ function L1() {
             { r1 }
           </Col>
         </Row>
+
         </React.Fragment>
     );
   }
