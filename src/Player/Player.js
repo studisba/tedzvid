@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 
 const useAudio = url => {
-  // TODO: SET State properly
   const [audio] = useState(new Audio(url));
   const [playing, setPlaying] = useState(false);
 

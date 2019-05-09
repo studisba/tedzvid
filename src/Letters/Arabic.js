@@ -1,11 +1,11 @@
 import React from 'react';
-const reactStringReplace = require('react-string-replace');
+import myReactStringReplace from '../Helpers/Streplace';
 
 function Arabic (props) {
     const arabicTxt = props.children;
 
-    const replacedTxt = reactStringReplace(arabicTxt, props.arabic, (match, i) => (
-        <span style={{ color: 'red' }}>{match}</span>
+    const replacedTxt = myReactStringReplace(arabicTxt, props.arabic, (match, i) => (
+        <span key={'rp' + i} style={{ color: 'red' }}>{match}</span>
     ));
 
     console.log(replacedTxt)
