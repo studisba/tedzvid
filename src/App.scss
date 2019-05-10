@@ -34,9 +34,10 @@ span.svira {
   /* padding-top: .35em; */
   /* margin-left: .5rem; */
   color: green;
+  font-weight: bold;
 
   .oznaceno {
-    color: green;
+    /* color: green; */
   }
 }
 
@@ -74,7 +75,7 @@ span.arap-red {
 nav.mainmenu {
   position: relative;
   margin-left: -1em;
-  margin-right: -1em;
+  margin-right: -1.03em;
   margin-top: -.5em;
 
   ul {

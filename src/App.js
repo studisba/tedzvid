@@ -1,5 +1,5 @@
 import React from 'react';
-import L1 from './Lessons/Lesson6';
+import L1 from './Lessons/Lesson1';
 import Container from 'react-bootstrap/Container';
 
 function App() {
