@@ -6,6 +6,13 @@ body {
   font-size: 1.7rem;
 }
 
+#root {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center center;
+  height: 100vh;
+}
+
 .underLine {
   font-family: 'Amiri', serif;
 }
@@ -14,14 +21,23 @@ span.ne-svira {
   color: inherit;
 }
 
+.oznaceno {
+  color: red;
+}
+
 span.svira {
   font-family: 'Amiri', serif;
-  display: inline-block;
-  border: 1px solid #ddd;
-  padding: 0 .25em;
-  border-radius: .15em;
-  padding-top: .35em;
-  margin-left: .5rem;
+  /* display: inline-block; */
+  /* border: 1px solid #ddd; */
+  /* padding: 0 .25em; */
+  /* border-radius: .15em; */
+  /* padding-top: .35em; */
+  /* margin-left: .5rem; */
+  color: green;
+
+  .oznaceno {
+    color: green;
+  }
 }
 
 .bosanski {
@@ -52,4 +68,36 @@ span.arap-red {
 .lekcije-wrapper {
   border: 7px solid #4A2D1F;
   padding: .5em 1em;
+}
+
+/* MENI */
+nav.mainmenu {
+  position: relative;
+  margin-left: -1em;
+  margin-right: -1em;
+  margin-top: -.5em;
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      background: #28a745;
+      color: white;
+      text-align: center;
+      padding: 0.3em 0;
+      font-size: 1.25rem;
+      border-right: 1px solid white;
+
+      &:nth-child(5) {
+        border-right: 0;
+      }
+
+      &:hover {
+        background: green;
+      }
+    }
+  }
 }

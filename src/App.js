@@ -1,10 +1,10 @@
 import React from 'react';
-import L1 from './Lessons/Lesson1';
+import L1 from './Lessons/Lesson6';
 import Container from 'react-bootstrap/Container';
 
 function App() {
   return (
-    <Container className="lekcije-wrapper">
+    <Container className="lekcije-wrapper my-auto">
       <L1/>
     </Container>
   );
