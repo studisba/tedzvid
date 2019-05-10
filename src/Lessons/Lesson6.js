@@ -1,7 +1,8 @@
 import React from 'react';
+import data from '../Data/L6Data.json';
 
 // Bootstrap
-import {Row, Col} from 'react-bootstrap';
+import {Row, Col, Button} from 'react-bootstrap';
 
 // Other
 import '../App.scss';
@@ -9,9 +10,119 @@ import Arabic from '../Letters/Arabic';
 import Player from '../Player/Player';
 
 function L6() {
-    const vertSeparator = ' • ';
+    const r1 = data.row1.map((dat) => {
+      return <span key={'key' + dat.id}>
+      <Player url={dat.url} key={'p' + dat.id}>
+        <Arabic
+          arabic={dat.highlight}
+          key={'a' + dat.id}
+        >{dat.word}</Arabic>
+      </Player> {dat.after === 'break' ? <br/> : dat.after}
+      </span>
+    });
+
+    const r2 = data.row2.map((dat) => {
+      return <span key={'key' + dat.id}>
+      <Player url={dat.url} key={'p' + dat.id}>
+        <Arabic
+          arabic={dat.highlight}
+          key={'a' + dat.id}
+        >{dat.word}</Arabic>
+      </Player> {dat.after === 'break' ? <br/> : dat.after}
+      </span>
+    });
+    
+    const r3 = data.row3.map((dat, ind) => {
+      return <Arabic
+          arabic={dat.highlight}
+          key={'a' + dat.id}
+        >{dat.word}</Arabic>
+    });
+
+    const v1 = data.vj1.map((dat) => {
+      return <span key={'key' + dat.id}>
+      <Player url={dat.url} key={'p' + dat.id}>
+          <Arabic
+          arabic={dat.highlight}
+          key={'a' + dat.id}
+          >{dat.word}</Arabic>
+      </Player> {dat.after === 'break' ? <br/> : dat.after}
+      </span>
+    });
+
+    const v2 = data.vj2.map((dat) => {
+      return <Arabic
+          arabic={dat.highlight}
+          key={'a' + dat.id}
+          >{dat.word}</Arabic>
+    });
+
+    const v3 = data.vj3.map((dat) => {
+      return <span key={'key' + dat.id}>
+      <Player url={dat.url} key={'p' + dat.id}>
+          <Arabic
+          arabic={dat.highlight}
+          key={'a' + dat.id}
+          >{dat.word}</Arabic>
+      </Player> {dat.after === 'break' ? <br/> : dat.after}
+      </span>
+    });
+
+    const v4 = data.vj4.map((dat) => {
+      return <Arabic
+          arabic={dat.highlight}
+          key={'a' + dat.id}
+          >{dat.word}</Arabic>
+    });
+
+    const v5 = data.vj5.map((dat) => {
+      return <Arabic
+          arabic={dat.highlight}
+          key={'a' + dat.id}
+          >{dat.word}</Arabic>
+    });
+
+    const v6 = data.vj6.map((dat) => {
+      return <Arabic
+          arabic={dat.highlight}
+          key={'a' + dat.id}
+          >{dat.word}</Arabic>
+    });
+
+    const v7 = data.vj7.map((dat) => {
+      return <Arabic
+          arabic={dat.highlight}
+          key={'a' + dat.id}
+          >{dat.word}</Arabic>
+    });
+
+    const v8 = data.vj8.map((dat) => {
+      return <Arabic
+          arabic={dat.highlight}
+          key={'a' + dat.id}
+          >{dat.word}</Arabic>
+    });
+
+    const v9 = data.vj9.map((dat) => {
+      return <Arabic
+          arabic={null}
+          key={'a' + dat.id}
+          >{dat.word}</Arabic>
+    });
+
     return (
         <React.Fragment>
+
+        <nav className="mainmenu">
+          <ul className="mainmenulist">
+            <li className="mainmenuitem">Lekcije ١</li>
+            <li className="mainmenuitem">Lekcije ٢</li>
+            <li className="mainmenuitem">Lekcije ٣</li>
+            <li className="mainmenuitem">Lekcije ٤</li>
+            <li className="mainmenuitem">Lekcije ٥</li>
+          </ul>
+        </nav>
+
         <Row>
           <Col>
             <h2 className="text-center font-weight-bold">IDGAM MEAL-GUNNEH</h2>
@@ -19,152 +130,103 @@ function L6() {
             <hr/>
           </Col>
         </Row>
+
         <Row>
           <Col className="opisLekcije">
           Kada poslije harfa N sa sukunom (نْ) ili tenvina EN  ــــــًــــــ, IN ـــــٍــــــ , UN  ــــــٌـــــ dođe jedan od četiri harfa: <Arabic bold={true}>ي م ن و</Arabic> (sadržana u riječi jemnu – يَمْنُو), dolazi do uklapanja harfa N (ن) u jedan od spomenuta četiri harfa, propuštajući zrak kroz nos u trajanju od 2 hareketa, npr.:
           </Col>
         </Row>
-        <Row className="mt-4">
+        
+        <Row className="mt-2">
           <Col>
-            <Player url='../assets/audio/l6/1.mp3'>
-              <Arabic
-                arabic = 'نْ نَ‍‍'
-              >مَ‍نْ نَ‍‍شَٓاءُ</Arabic>
-            </Player> čita se:
-            <Player url='../assets/audio/l6/2.mp3'>
-              <Arabic
-                arabic = 'نَّ‍'
-              >مَ‍‍نَّ‍‍شَٓاءُ</Arabic>
-            </Player> {vertSeparator}
-            <Player url='../assets/audio/l6/3.mp3'>
-              <Arabic
-                arabic = 'ةً مِ‍'
-              >نِعْمَ‍‍ةً مِ‍‍نْهُ</Arabic>
-            </Player> čita se:
-            <Player url='../assets/audio/l6/4.mp3'>
-              <Arabic
-                arabic = '‍ةَ مِّ‍'
-              >نِعْمَ‍‍ةَ مِّ‍نْه</Arabic>
-            </Player>
+            { r1 }
           </Col>
         </Row>
 
         <Row className="mt-2">
           <Col>
-            <Player url='../assets/audio/l6/6.mp3'>
-              <Arabic
-                arabic = 'لٌ مِنْ مَ‍'
-              >فِي جِيدِهَا حَبْ‍لٌ مِنْ مَ‍سَدٍ</Arabic>
-            </Player> ؛
-            <Player url='../assets/audio/l6/5.mp3'>
-              <Arabic
-                arabic = 'ئًا نُ‍'
-              >لَـقَدْ جِئْتَ شَيْـئًا نُ‍كْرًا</Arabic>
-            </Player>
+            { r2 }
           </Col>
         </Row>
 
         <Row className="mt-2">
           <Col>
-            <Player url='../assets/audio/l6/7.mp3'>
-              <Arabic
-                arabic = 'فًا مُ‍'
-              >كَانَ حَنِي‍فًا مُ‍ـسْلِمًا</Arabic>
-              <Arabic
-                arabic = 'يًّا وَ‍'
-              >نَصْرَانـِيًّا وَ‍لٰكِنْ</Arabic>
-              <Arabic
-                arabic = 'يًّا وَ'
-              >مَا كَانَ إِبْـرَاهِيمُ يَهُودِيًّا وَلَا</Arabic>
-            </Player>
+            <span key={'key' + data.row3[0].id}>
+              <Player url={data.row3[0].url} key={'p' + data.row3[0].id}>
+                { r3 }
+              </Player>
+            </span> { data.row3[0].after }
           </Col>
         </Row>
 
-        <Row className="mt-4">
+        <Row className="mt-2">
           <Col>
-            <h2 className="text-center">VJEŽBA</h2>
+            <h2 className="text-center font-weight-bold">Vježba</h2>
             <hr/>
           </Col>
         </Row>
-        <Row className="mt-2">
-            <Col className="text-center">
-              <Player url='../assets/audio/l6/9.mp3'>
-                <Arabic
-                  arabic = 'لًا'
-                >وَقَالُوا نَحْنُ أَكْثَرُ أَمْـوَالًا</Arabic>
-              </Player>
-              ۞<Player url='../assets/audio/l6/8.mp3'>
-                <Arabic
-                  arabic = 'رًا يَ‍'
-                >مِثْقَالَ ذَرَّةٍ خَيْـرًا يَ‍رَهُ</Arabic>
-                <Arabic
-                  arabic = '‍نْ يَ‍'
-                >فَمَ‍‍نْ يَ‍ـعْمَلْ</Arabic>
-              </Player>
 
-              ۞<Player url='../assets/audio/l6/10.mp3'>
-                <Arabic
-                  arabic = 'شًا'
-                >اَلَّذِي جَعَلَ لَكُمُ الْأَرْضَ فِرَاشًا</Arabic>
-              </Player>
-              ۞<Player url='../assets/audio/l6/11.mp3'>
-                <Arabic
-                  arabic = 'دًا وَ'
-                >لَادًا وَمَا نَحْنُ بِمُعَذَّبِينَ</Arabic>
-                <Arabic
-                  arabic = 'وَ'
-                >وَأَوْلَ</Arabic>
-                <Arabic
-                  arabic = 'لًا'
-                >اَلَّذِي جَمَعَ مَالًا</Arabic>
-              </Player>
+        <Row className="px-4 py-2 text-center">
+          <Col>
+              { v1 }
 
-                ۞<Arabic
-                  arabic = 'ءً وَ'
-                >بِنَٓاءً وَأَنْـزَلَ مِنَ السَّمَٓاءِ مَٓاءً</Arabic>
-                <Arabic
-                  arabic = 'وَ'
-                >وَالسَّمَٓاءَ</Arabic>
-                ۞<Player url='../assets/audio/l6/12.mp3'>
-                  <Arabic
-                    arabic = 'وَ'
-                  >وَبَرْقٌ</Arabic>
-                  <Arabic
-                    arabic = 'دٌ'
-                  >رَعْدٌ</Arabic>
-                  <Arabic
-                    arabic = 'تٌ وَ'
-                  >السَّمَٓاءِ فِيهِ ظُلُمَاتٌ وَ</Arabic>
-                  <Arabic
-                    arabic = 'بٍ مِ'
-                  >أَوْ كَصَيِّبٍ مِنَ</Arabic>
+              <span key={'key' + data.vj2[0].id}>
+                <Player url={data.vj2[0].url} key={'p' + data.vj2[0].id}>
+                  { v2 }
                 </Player>
+              </span> { data.vj2[0].after }
 
-                ۞<Player url='../assets/audio/l6/14.mp3'>
-                  <Arabic
-                    arabic = 'وَ'
-                  >وَعَدَّدَهُ</Arabic>
-                  <Arabic
-                    arabic = 'ةٌ يَ'
-                  >أُمَّةٌ يَدْعُونَ إِلَى</Arabic>
-                  <Arabic
-                    arabic = 'ـنْ مِ'
-                  >وَلْتَكُـنْ مِنْكُمْ</Arabic>
+              { v3 }
+
+              <span key={'key' + data.vj4[0].id}>
+                <Player url={data.vj4[0].url} key={'p' + data.vj4[0].id}>
+                  { v4 }
                 </Player>
-                ۞<Player url='../assets/audio/l6/13.mp3'>
-                  <Arabic
-                    arabic = 'نٌ مِ'
-                  >ضْوَانٌ مِنَ اللّٰهِ</Arabic>
-                  <Arabic
-                    arabic = 'ةٌ وَ'
-                  >ةٌ وَرِ</Arabic>
-                  <Arabic
-                    arabic = 'جٌ مُ'
-                  >وَأَزْوَاجٌ مُطَهَّرَ</Arabic>
-                  <Arabic
-                  >الْخَيْرِ</Arabic>
-                </Player>
-            </Col>
+              </span> { data.vj4[0].after }
+
+              { v5 } { data.vj4[0].after }
+
+              <span key={'key' + data.vj6[0].id}>
+              <Player url={data.vj6[0].url} key={'p' + data.vj6[0].id}>
+                { v6 }
+              </Player>
+            </span> { data.vj6[0].after }
+
+            <span key={'key' + data.vj7[0].id}>
+              <Player url={data.vj7[0].url} key={'p' + data.vj7[0].id}>
+                { v7 }
+              </Player>
+            </span> { data.vj7[0].after }
+
+            <span key={'key' + data.vj8[0].id}>
+              <Player url={data.vj8[0].url} key={'p' + data.vj8[0].id}>
+                { v8 }
+              </Player>
+            </span> { data.vj8[0].after }
+
+            { v9 }
+
+          </Col>
+        </Row>
+
+        <hr/>
+
+        <Row>
+          <Col className="text-left">
+            <Button variant="success" block>
+              Prethodna lekcija
+            </Button>
+          </Col>
+          <Col className="text-left">
+            <Button variant="secondary" block>
+              Na početak
+            </Button>
+          </Col>
+          <Col className="text-right">
+            <Button variant="success" block>
+              Sljedeća lekcija
+            </Button>
+          </Col>
         </Row>
 
         </React.Fragment>
