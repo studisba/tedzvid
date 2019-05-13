@@ -1,61 +1,19 @@
 import React from 'react';
 import data from '../Data/L1Data.json';
+import PlayerRow from '../Helpers/PlayerHelper';
+import VjezbeRow from '../Helpers/VjezbeHelper';
+import Header from '../Body/MainHeader';
 
 // Bootstrap
 import {Row, Col, Button, Table} from 'react-bootstrap';
 
 // Other
 import '../App.scss';
-import Arabic from '../Letters/Arabic';
-import Player from '../Player/Player';
 
 function L1() {
-
-    const PlayerRow = (datarr, rowname) => {
-        const row = data[rowname].map((dat) => {
-          return <span key={'key' + dat.id}>
-          <Player url={dat.url} key={'p' + dat.id}>
-            <Arabic
-              arabic={dat.highlight}
-              key={'a' + dat.id}
-            >{dat.word}</Arabic>
-          </Player> {dat.after === 'break' ? <br/> : dat.after}
-          </span>
-        });
-
-        return row;
-    };
-
-    const VjezbeRow = (dat, rowmain, rows) => {
-      const data =  dat[rowmain][rows];
-      let ar = [];
-
-      data.forEach((el, ind) => {
-        ar.push(<Arabic
-            arabic={el.highlight}
-            key={'a' + el.id}
-        >{el.word}</Arabic>);
-      });
-
-      return <span key={'key' + data[0].id}>
-        <Player url={data[0].url} key={'p' + data[0].id}>
-            { ar }
-        </Player> {data[0].after === 'break' ? <br/> : data[0].after}
-      </span>;
-    }
-
     return (
         <React.Fragment>
-        <nav className="mainmenu">
-          <ul className="mainmenulist">
-            <li className="mainmenuitem">Lekcije ١</li>
-            <li className="mainmenuitem">Lekcije ٢</li>
-            <li className="mainmenuitem">Lekcije ٣</li>
-            <li className="mainmenuitem">Lekcije ٤</li>
-            <li className="mainmenuitem">Lekcije ٥</li>
-          </ul>
-        </nav>
-
+        <Header />
         <Row>
           <Col>
             <h2 className="text-center font-weight-bold text-uppercase">Vakf</h2>
@@ -223,6 +181,9 @@ function L1() {
           </Col>
         </Row>
 
+        <h2 className="text-center">Vježbe</h2>
+        <hr/>
+
         <Row className="text-center">
           <Col>
             { VjezbeRow(data, 'vjezba', 'red1') }
@@ -249,9 +210,10 @@ function L1() {
           </Col>
         </Row>
 
+        <hr/>
+
         NE POKLAPA SE WORD SA SLIKAMA
 
-        <hr/>
         <Row>
           <Col className="text-left">
             <Button variant="success" block>
