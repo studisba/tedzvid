@@ -1,5 +1,6 @@
 import React from 'react';
 import Home from './Body/HomePage';
+import Header from './Body/MainHeader';
 
 import L1 from './Lessons/Lesson1';
 import L6 from './Lessons/Lesson6';
@@ -11,9 +12,12 @@ function App() {
   return (
     <BrowserRouter>
       <Container className="lekcije-wrapper my-auto">
+        <Header/>
+
         <Route path="/" exact component={Home}/>
         <Route path="/lekcija1" component={L1}/>
         <Route path="/lekcija6" component={L6}/>
+
       </Container>
     </BrowserRouter>
   );

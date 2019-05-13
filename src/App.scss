@@ -77,12 +77,14 @@ nav.mainmenu {
   margin-left: -1em;
   margin-right: -1.03em;
   margin-top: -.5em;
+  margin-bottom: 1rem;
 
   ul {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     list-style-type: none;
     padding: 0;
+    margin: 0;
 
     li {
       background: #28a745;
