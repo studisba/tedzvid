@@ -2,10 +2,10 @@ import React from 'react';
 import data from '../Data/L1Data.json';
 import PlayerRow from '../Helpers/PlayerHelper';
 import VjezbeRow from '../Helpers/VjezbeHelper';
-import Header from '../Body/MainHeader';
+import Footer from '../Body/MainFooter';
 
 // Bootstrap
-import {Row, Col, Button, Table} from 'react-bootstrap';
+import {Row, Col, Table} from 'react-bootstrap';
 
 // Other
 import '../App.scss';
@@ -13,7 +13,6 @@ import '../App.scss';
 function L1() {
     return (
         <React.Fragment>
-        <Header />
         <Row>
           <Col>
             <h2 className="text-center font-weight-bold text-uppercase">Vakf</h2>
@@ -214,23 +213,7 @@ function L1() {
 
         NE POKLAPA SE WORD SA SLIKAMA
 
-        <Row>
-          <Col className="text-left">
-            <Button variant="success" block>
-              Prethodna lekcija
-            </Button>
-          </Col>
-          <Col className="text-left">
-            <Button variant="secondary" block>
-              Na početak
-            </Button>
-          </Col>
-          <Col className="text-right">
-            <Button variant="success" block>
-              Sljedeća lekcija
-            </Button>
-          </Col>
-        </Row>
+        <Footer prev="/" next="/lekcija2" />
 
         </React.Fragment>
     );

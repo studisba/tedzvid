@@ -1,8 +1,9 @@
 import React from 'react';
 import data from '../Data/L6Data.json';
+import Footer from '../Body/MainFooter';
 
 // Bootstrap
-import {Row, Col, Button} from 'react-bootstrap';
+import {Row, Col} from 'react-bootstrap';
 
 // Other
 import '../App.scss';
@@ -113,16 +114,6 @@ function L6() {
     return (
         <React.Fragment>
 
-        <nav className="mainmenu">
-          <ul className="mainmenulist">
-            <li className="mainmenuitem">Lekcije ١</li>
-            <li className="mainmenuitem">Lekcije ٢</li>
-            <li className="mainmenuitem">Lekcije ٣</li>
-            <li className="mainmenuitem">Lekcije ٤</li>
-            <li className="mainmenuitem">Lekcije ٥</li>
-          </ul>
-        </nav>
-
         <Row>
           <Col>
             <h2 className="text-center font-weight-bold">IDGAM MEAL-GUNNEH</h2>
@@ -209,25 +200,7 @@ function L6() {
           </Col>
         </Row>
 
-        <hr/>
-
-        <Row>
-          <Col className="text-left">
-            <Button variant="success" block>
-              Prethodna lekcija
-            </Button>
-          </Col>
-          <Col className="text-left">
-            <Button variant="secondary" block>
-              Na početak
-            </Button>
-          </Col>
-          <Col className="text-right">
-            <Button variant="success" block>
-              Sljedeća lekcija
-            </Button>
-          </Col>
-        </Row>
+        <Footer prev="/lekcija5" next="/lekcija7" />
 
         </React.Fragment>
     );
