@@ -24,6 +24,24 @@ function L1() {
         });
 
         return row;
+    };
+
+    const VjezbeRow = (dat, rowmain, rows) => {
+      const data =  dat[rowmain][rows];
+      let ar = [];
+
+      data.forEach((el, ind) => {
+        ar.push(<Arabic
+            arabic={el.highlight}
+            key={'a' + el.id}
+        >{el.word}</Arabic>);
+      });
+
+      return <span key={'key' + data[0].id}>
+        <Player url={data[0].url} key={'p' + data[0].id}>
+            { ar }
+        </Player> {data[0].after === 'break' ? <br/> : data[0].after}
+      </span>;
     }
 
     return (
@@ -167,7 +185,7 @@ function L1() {
                 م
                 </td>
                 <td>
-                قلي ؛  ج ؛ ط  قف ؛
+                قف ؛ قلي ؛ ج ؛ ط
                 </td>
                 <td>
                 صلي ؛ ق ؛ ص ؛ ز
@@ -204,6 +222,34 @@ function L1() {
           </p>
           </Col>
         </Row>
+
+        <Row className="text-center">
+          <Col>
+            { VjezbeRow(data, 'vjezba', 'red1') }
+            { VjezbeRow(data, 'vjezba', 'red2') }
+          </Col>
+        </Row>
+        <Row className="text-center">
+          <Col>
+            { VjezbeRow(data, 'vjezba', 'red3') }
+            { VjezbeRow(data, 'vjezba', 'red4') }
+          </Col>
+        </Row>
+        <Row className="text-center"> 
+          <Col>
+            { VjezbeRow(data, 'vjezba', 'red5') }
+            { VjezbeRow(data, 'vjezba', 'red6') }
+            { VjezbeRow(data, 'vjezba', 'red7') }
+          </Col>
+        </Row>
+        <Row className="text-center">
+          <Col>
+            { VjezbeRow(data, 'vjezba', 'red8') }
+            { VjezbeRow(data, 'vjezba', 'red9') }
+          </Col>
+        </Row>
+
+        NE POKLAPA SE WORD SA SLIKAMA
 
         <hr/>
         <Row>

@@ -8,8 +8,6 @@ function Arabic (props) {
         <span key={'rp' + i} className='oznaceno'>{match}</span>
     ));
 
-    console.log(replacedTxt)
-
     return <span dir='rtl'
                 lang='ar'
                 className={ props.bold ? "arap-red" : "arapski" }
