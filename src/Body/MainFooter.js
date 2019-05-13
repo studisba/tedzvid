@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Row, Col, Button } from 'react-bootstrap';
 
 function Footer(props) { 
-    return <Row>
+    return <footer className="mainfooter"><Row>
         <Col className="text-left">
             <Link to={props.prev} className="text-white">
                 <Button variant="success" block>
@@ -25,7 +25,7 @@ function Footer(props) {
                 </Button>
             </Link>
         </Col>
-    </Row>;
+    </Row></footer>;
 }
 
 export default Footer;
