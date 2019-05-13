@@ -2,7 +2,7 @@ import React from 'react';
 import data from '../Data/L1Data.json';
 
 // Bootstrap
-import {Row, Col, Button} from 'react-bootstrap';
+import {Row, Col, Button, Table} from 'react-bootstrap';
 
 // Other
 import '../App.scss';
@@ -10,16 +10,21 @@ import Arabic from '../Letters/Arabic';
 import Player from '../Player/Player';
 
 function L1() {
-    const r1 = data.row1.map((dat) => {
-      return <span key={'key' + dat.id}>
-      <Player url={dat.url} key={'p' + dat.id}>
-        <Arabic
-          arabic={dat.highlight}
-          key={'a' + dat.id}
-        >{dat.word}</Arabic>
-      </Player> {dat.after === 'break' ? <br/> : dat.after}
-      </span>
-    });
+
+    const PlayerRow = (datarr, rowname) => {
+        const row = data[rowname].map((dat) => {
+          return <span key={'key' + dat.id}>
+          <Player url={dat.url} key={'p' + dat.id}>
+            <Arabic
+              arabic={dat.highlight}
+              key={'a' + dat.id}
+            >{dat.word}</Arabic>
+          </Player> {dat.after === 'break' ? <br/> : dat.after}
+          </span>
+        });
+
+        return row;
+    }
 
     return (
         <React.Fragment>
@@ -55,7 +60,148 @@ function L1() {
         
         <Row>
           <Col>
-            { r1 }
+          { PlayerRow(data, 'row1') }
+          </Col>
+        </Row>
+
+        <Row>
+          <Col className="opisLekcije my-3">
+            <strong>2.</strong>	Kada riječ završava tenvinom EN  ــــــًــــــ, stat će kao da je dugo  A ـــــَــــــ ا , npr.:
+          </Col>
+        </Row>
+
+        <Row>
+          <Col>
+            { PlayerRow(data, 'row2') }
+          </Col>
+        </Row>
+
+        <Row>
+          <Col className="opisLekcije my-3">
+            <strong>3.</strong>	Kada riječ završava dugim vokalom A ــــــَــــــ ا , dugim vokalom Iــــــِـــــ ى  ili dugim vokalom Uــــــُـــــ و, stat će bez ikakve promjene, npr.:
+          </Col>
+        </Row>
+
+        <Row>
+          <Col>
+            { PlayerRow(data, 'row3') }
+          </Col>
+        </Row>
+
+        <Row>
+          <Col className="opisLekcije my-3">
+            <strong>4.</strong>	Kada riječ završava okruglim T (ة/ـة), stat će kao da je napisano slovo H (ه), bez obzira koji je vokal ili tenvin napisan na njemu, npr.:
+          </Col>
+        </Row>
+
+        <Row>
+          <Col>
+            { PlayerRow(data, 'row4') }
+          </Col>
+        </Row>
+
+        <Row>
+          <Col className="opisLekcije my-3">
+          <h3>Pregled u tabeli:</h3>
+          <Table className="tabela-opis text-center" bordered hover responsive>
+            <thead className="text-danger text-uppercase">
+              <tr>
+                <th>Kada riječ završava na</th>
+                <th>Stajemo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                E ــــــَــــــ , I  ـــــــِـــــ, U ــــــُــــــ , IN ـــــٍــــــ , UN  ــــــٌـــــ
+                </td>
+                <td>
+                kao da je sukun  ــــــْــــــ
+                </td>
+              </tr>
+              <tr>
+                <td>
+                EN  ــــــًــــــ
+                </td>
+                <td>
+                kao da je dugo A ــــــَــــــ ا
+                </td>
+              </tr>
+              <tr>
+                <td>
+                dugo A ـــــَـــــ ا , dugo Iــــــِــــ ى  , dugo Uـــــُـــــ و  	bez ikakve promjene
+                </td>
+                <td>
+                bez ikakve promjene
+                </td>
+              </tr>
+              <tr>
+                <td>
+                okruglo T (ة/ـة)	kao da je H (ه)
+                </td>
+                <td>
+                kao da je H (ه)
+                </td>
+              </tr>
+            </tbody>
+          </Table>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col className="opisLekcije my-3">
+          <h3>Znakovi za stajanje:</h3>
+          <p>Iznad nekih riječi u Kur'anu nalaze se <strong>znakovi</strong> koji označavaju da li se na toj riječi mora stati ili se ne smije, da li je bolje stati ili je bolje preći. Ti znakovi su:</p>
+          <Table className="tabela-opis text-center" bordered hover responsive>
+            <thead className="text-uppercase">
+              <tr>
+                <th className="text-danger">Mora stati</th>
+                <th>Bolje stati</th>
+                <th>Boje preći</th>
+                <th className="text-danger">Ne smije se stati</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                م
+                </td>
+                <td>
+                قلي ؛  ج ؛ ط  قف ؛
+                </td>
+                <td>
+                صلي ؛ ق ؛ ص ؛ ز
+                </td>
+                <td>
+                لا
+                </td>
+              </tr>
+            </tbody>
+          </Table>
+
+          <Table className="tabela-opis text-center" bordered hover responsive>
+            <thead className="text-uppercase">
+              <tr>
+                <th>Sekta</th>
+                <th>Tri tačkice</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                سكتة ؛س
+                <br/>Pauzira se bez prekidanja daha.
+                </td>
+                <td>
+                رَيْبَۚۛ ف۪يهِۚۛ   
+                <br/>Ukoliko se pauzira na prvom znaku, onda je na drugom obavezno preći i obrnuto.
+                </td>
+              </tr>
+            </tbody>
+          </Table>
+          <p>
+            <strong>NAPOMENA</strong>: Znak قصر ispod riječi je znak da se vokal ispod kojeg se nalazi uči kratko, a مد je znak da se vokal uči dugo.
+          </p>
           </Col>
         </Row>
 
