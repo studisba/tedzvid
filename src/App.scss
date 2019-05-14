@@ -79,6 +79,21 @@ footer.mainfooter {
   margin-top: .5em;
 }
 
+.homearea {
+  font-size: initial;
+
+    a:hover {
+      text-decoration: none;
+    }
+
+}
+
+.card-body {
+  &:hover {
+    background: #f6f6f6;
+  }
+}
+
 /* MENI */
 nav.mainmenu {
   position: relative;
