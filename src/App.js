@@ -8,6 +8,8 @@ import L3 from './Lessons/Lesson3';
 import L4 from './Lessons/Lesson4';
 import L5 from './Lessons/Lesson5';
 import L6 from './Lessons/Lesson6';
+import L7 from './Lessons/Lesson7';
+import L8 from './Lessons/Lesson8';
 
 import Container from 'react-bootstrap/Container';
 import { BrowserRouter, Route } from 'react-router-dom';
@@ -25,6 +27,8 @@ function App() {
         <Route path="/lekcija4" component={L4}/>
         <Route path="/lekcija5" component={L5}/>
         <Route path="/lekcija6" component={L6}/>
+        <Route path="/lekcija7" component={L7}/>
+        <Route path="/lekcija8" component={L8}/>
 
       </Container>
     </BrowserRouter>
