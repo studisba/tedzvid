@@ -63,7 +63,9 @@ span.arap-red {
 }
 
 .opisLekcije {
+  padding: .8rem;
   font-size: 1.45rem;
+  text-align: justify;
 }
 
 .lekcije-wrapper {
@@ -92,6 +94,11 @@ footer.mainfooter {
   &:hover {
     background: #f6f6f6;
   }
+}
+
+span.imelekcije {
+  float: right;
+  font-size: 1rem;
 }
 
 /* MENI */

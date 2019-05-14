@@ -36,26 +36,26 @@ function Header() {
             </ul>
             <ul className="bottomMenu">
                 <Link to="/lekcija2" className="text-white"><li className="bottommenuitem">Lekcija 2</li></Link>
-                <li className="bottommenuitem">Lekcija 7</li>
+                <Link to="/lekcija7" className="text-white"><li className="bottommenuitem">Lekcija 7</li></Link>
                 <li className="bottommenuitem">Lekcija 12</li>
                 <li className="bottommenuitem">Lekcija 17</li>
                 <li className="bottommenuitem">Lekcija 22</li>
             </ul>
             <ul className="bottomMenu">
                 <Link to="/lekcija3" className="text-white"><li className="bottommenuitem">Lekcija 3</li></Link>
-                <li className="bottommenuitem">Lekcija 8</li>
+                <Link to="/lekcija8" className="text-white"><li className="bottommenuitem">Lekcija 8</li></Link>
                 <li className="bottommenuitem">Lekcija 13</li>
                 <li className="bottommenuitem">Lekcija 18</li>
             </ul>
             <ul className="bottomMenu">
                 <Link to="/lekcija4" className="text-white"><li className="bottommenuitem">Lekcija 4</li></Link>
-                <li className="bottommenuitem">Lekcija 9</li>
+                <Link to="/lekcija9" className="text-white"><li className="bottommenuitem">Lekcija 9</li></Link>
                 <li className="bottommenuitem">Lekcija 14</li>
                 <li className="bottommenuitem">Lekcija 19</li>
             </ul>
             <ul className="bottomMenu">
                 <Link to="/lekcija5" className="text-white"><li className="bottommenuitem">Lekcija 5</li></Link>
-                <li className="bottommenuitem">Lekcija 10</li>
+                <Link to="/lekcija10" className="text-white"><li className="bottommenuitem">Lekcija 10</li></Link>
                 <li className="bottommenuitem">Lekcija 15</li>
                 <li className="bottommenuitem">Lekcija 20</li>
             </ul>
