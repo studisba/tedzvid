@@ -1,0 +1,73 @@
+{
+    "row1": [
+        {
+            "id": 1,
+            "url": "../assets/audio/l3/2.mp3",
+            "highlight": "وَاللّٰهِ",
+            "word": "وَاللّٰهِ",
+            "after": " ; "
+        },
+        {
+            "id": 2,
+            "url": "../assets/audio/l3/1.mp3",
+            "highlight": "لُ اللّٰهِ",
+            "word": "رَسُولُ اللّٰهِ",
+            "after": " . "
+        }
+    ],
+    "row2": [
+        {
+            "id": 5,
+            "url": "../assets/audio/l3/5.mp3",
+            "highlight": "مِاللّٰ",
+            "word": "بِسْمِاللّٰهِ",
+            "after": " ; "
+        },
+        {
+            "id": 4,
+            "url": "../assets/audio/l3/4.mp3",
+            "highlight": "بِا اللّٰهِ",
+            "word": "بِا اللّٰهِ",
+            "after": " . "
+        }
+    ],
+    "row3": [
+        {
+            "id": 7,
+            "url": "../assets/audio/l3/7.mp3",
+            "highlight": "بِاللّٰهِ",
+            "word": "وَكَفٰى بِاللّٰهِ نَصِيرًا",
+            "after": " ؛ "
+        },
+        {
+            "id": 6,
+            "url": "../assets/audio/l3/6.mp3",
+            "highlight": "مِ اللّٰهِ",
+            "word": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+            "after": null
+        }
+    ],
+    "multirow": {
+        "row2": [
+            {
+                "id": 3,
+                "url": "../assets/audio/l3/3.mp3",
+                "highlight": "نَّ اللّٰهَ",
+                "word": "لرَّسُولَ فَإِنْ تَوَلَّوْا فَإِنَّ اللّٰهَ لَا يُحِبُّ الْكَافِرِينَ",
+                "after": " ; "
+            },
+            {
+                "id": 31,
+                "highlight": "اللّٰ",
+                "word": "اللّٰهَ وَا",
+                "after": null
+            },
+            {
+                "id": 32,
+                "highlight": "عُ",
+                "word": "قُلْ أَطِيعُوا",
+                "after": " ; "
+            }
+        ]
+    }
+}

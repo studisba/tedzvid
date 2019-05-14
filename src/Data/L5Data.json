@@ -1,0 +1,57 @@
+{
+    "row1": [
+        {
+            "id": 1,
+            "url": "../assets/audio/l5/1.mp3",
+            "highlight": "مْ  مِ",
+            "word": "هُمْ  مِنْ",
+            "after": " čita se: "
+        },
+        {
+            "id": 2,
+            "url": "../assets/audio/l5/2.mp3",
+            "highlight": "مِّ",
+            "word": "هـُمِّنْ",
+            "after": null
+        }
+    ],
+    "row2": [
+        {
+            "id": 5,
+            "url": "../assets/audio/l5/5.mp3",
+            "highlight": "مْ م",
+            "word": "وَاٰمَنَهُمْ مِنْ خَوْفٍ",
+            "after": " ; "
+        },
+        {
+            "id": 4,
+            "url": "../assets/audio/l5/4.mp3",
+            "highlight": "مْ مِ",
+            "word": "أَطْعَمَهُمْ مِنْ",
+            "after": " ; "
+        },
+        {
+            "id": 3,
+            "url": "../assets/audio/l5/3.mp3",
+            "highlight": "مْ مُـ",
+            "word": "إِنَّهَا عَلَيْهِمْ مُـؤْصَدَةٌ",
+            "after": null
+        }
+    ],
+    "row3": [
+        {
+            "id": 7,
+            "url": "../assets/audio/l5/7.mp3",
+            "highlight": "مْ مَ",
+            "word": "فَإِنَّ لَكُمْ مَا سَأَلْـتُمْ",
+            "after": " ; "
+        },
+        {
+            "id": 6,
+            "url": "../assets/audio/l5/6.mp3",
+            "highlight": "مْ مُ",
+            "word": "اَلَّذِينَ يَظُـنُّونَ أَنَّهُمْ مُلَاقُو رَبِّـهِمْ",
+            "after": null
+        }
+    ]
+}
