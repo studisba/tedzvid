@@ -73,6 +73,7 @@ span.arap-red {
   border-image-slice: 24 33 25 34; border-image-width: 20px 20px 20px 20px; border-image-outset: 0px 0px 0px 0px; border-image-repeat: repeat repeat;
   border-image-source: url("https://i.imgur.com/t6U68wJ.jpg");
   padding: .5em 1em;
+  position: relative;
 }
 
 footer.mainfooter {
@@ -103,6 +104,70 @@ span.imelekcije {
 
 /* MENI */
 nav.mainmenu {
+  margin-bottom: 1em;
+}
+
+ul.mainmenulist {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin-left: -1em;
+  margin-right: -1em;
+  margin-top: -0.5em;
+  margin-bottom: 0;
+
+  li {
+    background: green;
+    color: white;
+    padding: .25em 0;
+
+    &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4) {
+      border-right: 1px solid white;
+    }
+
+    &:hover {
+      background: #3CA84B;
+    }
+  }
+}
+
+ul.bottomMenu {
+  list-style-type: none;
+  padding: 0;
+  background: #f2f2f2;
+
+  li {
+      padding: 0.25em;
+
+      &:nth-child(1), &:nth-child(2), &:nth-child(3) {
+        border-right: 1px solid white;
+        border-bottom: 1px solid white;
+      }
+  }
+
+  a.menulink {
+      color: #666;
+  }
+}
+
+.bottomMenuMain {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  margin-left: -1em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+/* MENI */
+/* nav.mainmenu {
   position: relative;
   margin-left: -1em;
   margin-right: -1.03em;
@@ -144,4 +209,4 @@ nav.mainmenu {
       }
     }
   }
-}
+} */
