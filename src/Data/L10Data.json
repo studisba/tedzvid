@@ -1,0 +1,65 @@
+{
+    "row1": [
+        {
+            "id": 2,
+            "url": "../assets/audio/l10/2.mp3",
+            "highlight": "مْ دِ",
+            "word": "لَكُمْ دِينُكُمْ",
+            "after": " ; "
+        },
+        {
+            "id": 1,
+            "url": "../assets/audio/l10/1.mp3",
+            "highlight": "مْ تَ",
+            "word": "أَلَـمْ تَرَ",
+            "after": null
+        }
+    ],
+    "multirow": {
+        "word1": [
+            {
+                "id": 3,
+                "url": "../assets/audio/l10/3.mp3",
+                "highlight": "مْ فِ",
+                "word": "كَيْدَهُمْ فِي تَضْلِيلٍ",
+                "after": " ; "
+            },
+            {
+                "id": 31,
+                "highlight": "مْ فِ",
+                "word": "أَلَـمْ يَـجْعَلْ",
+                "after": null
+            }
+        ],
+        "word2": [
+            {
+                "id": 4,
+                "url": "../assets/audio/l10/4.mp3",
+                "highlight": "مْ وَ",
+                "word": "الْمَغْضُوبِ عَلَيْهِمْ وَلَاالضَّٓالِّـينَ",
+                "after": null
+            },
+            {
+                "id": 41,
+                "highlight": "مْ غَ",
+                "word": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ",
+                "after": null
+            }
+        ],
+        "word3": [
+            {
+                "id": 5,
+                "url": "../assets/audio/l10/5.mp3",
+                "highlight": "مْ يُ",
+                "word": "وَلَمْ يُولَدْ",
+                "after": null
+            },
+            {
+                "id": 51,
+                "highlight": "مْ يَ",
+                "word": "لَمْ يَلِدْ",
+                "after": null
+            }
+        ]
+    }
+}
