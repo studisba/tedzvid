@@ -7,7 +7,6 @@ function Home() {
     const [otherpage, pageClick] = useState(false);
 
     const pageClickHandler = () => {
-        console.log('next page')
         return pageClick(!otherpage);
     }
 

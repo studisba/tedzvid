@@ -19,7 +19,7 @@ function Header() {
             </ul>
         </nav>;
     } if (opened) {
-        return <nav onMouseLeave={menuClickHandler} className="mainmenu">
+        return <nav onMouseLeave={menuClickHandler} onClick={menuClickHandler} className="mainmenu">
             <ul className="mainmenulist">
                 <li className="mainmenuitem">Lekcije ١</li>
                 <li className="mainmenuitem">Lekcije ٢</li>
