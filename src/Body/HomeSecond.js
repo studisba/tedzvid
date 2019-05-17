@@ -6,18 +6,18 @@ function HomeSecond() {
 
     return <React.Fragment><Row className="homearea mt-4">
             <Col>
-                <Link to="/lekcija1" style={{ color: 'inherit' }}><Card>
+                <Link to="/lekcija13" style={{ color: 'inherit' }}><Card>
                     <Card.Body>
-                        <Card.Title>VAKF <Badge className="imelekcije" variant="light">Lekcija 13</Badge></Card.Title>
-                        <Card.Subtitle className="mb-2 text-muted">Stajanje prilikom učenja</Card.Subtitle>
+                        <Card.Title>KALKALA <Badge className="imelekcije" variant="light">Lekcija 13</Badge></Card.Title>
+                        <Card.Subtitle className="mb-2 text-muted">odskakanje harfova</Card.Subtitle>
                     </Card.Body>
                 </Card></Link>
             </Col>
             <Col>
-                <Link to="/lekcija2" style={{ color: 'inherit' }}><Card>
+                <Link to="/lekcija14" style={{ color: 'inherit' }}><Card>
                     <Card.Body>
-                        <Card.Title>LAFZATULLAH <Badge className="imelekcije" variant="light">Lekcija 14</Badge></Card.Title>
-                        <Card.Subtitle className="mb-2 text-muted">Izgovaranje riječi Allah اللّٰه</Card.Subtitle>
+                        <Card.Title>HUKMURRA <Badge className="imelekcije" variant="light">Lekcija 14</Badge></Card.Title>
+                        <Card.Subtitle className="mb-2 text-muted">izgovor harfa R (ر)</Card.Subtitle>
                     </Card.Body>
                 </Card></Link>
             </Col>

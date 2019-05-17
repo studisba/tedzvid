@@ -1,16 +1,18 @@
 import React, { useState, useEffect } from "react";
 
-const useAudio = url => {
+const useAudio = (url, audioPlayed) => {
   const [audio] = useState(new Audio(url));
   const [playing, setPlaying] = useState(false);
 
   const toggle = () => setPlaying(!playing);
 
+  console.log('Audio played', audioPlayed);
+
   useEffect(
     () => {
       if (playing) {
         audio.play();
-        audio.onended = () => { setPlaying(!playing) };
+        audio.onended = () => { setPlaying(!playing); };
         audio.volume = 0.1;
       } else {
         audio.pause();
@@ -24,7 +26,7 @@ const useAudio = url => {
 };
 
 const Player = (props) => {
-  const [playing, toggle] = useAudio(props.url);
+  const [playing, toggle] = useAudio(props.url, props.playr);
 
   return (
       <span
