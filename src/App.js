@@ -23,11 +23,11 @@ function App() {
         <Route path="/lekcija7" component={L7}/>
         <Route path="/lekcija8" component={L8}/>
         <Route path="/lekcija9" component={L9}/>
-        {/* <Route path="/lekcija10" component={L10}/>
+        <Route path="/lekcija10" component={L10}/>
         <Route path="/lekcija11" component={L11}/>
         <Route path="/lekcija12" component={L12}/>
         <Route path="/lekcija13" component={L13}/>
-        <Route path="/lekcija14" component={L14}/> */}
+        <Route path="/lekcija14" component={L14}/>
 
       </Container>
     </BrowserRouter>
