@@ -2,6 +2,7 @@ import React from 'react';
 import data from '../Data/L14Data.json';
 import PlayerRow from '../Helpers/PlayerHelper';
 //import VjezbeRow from '../Helpers/VjezbeHelper';
+import Footer from '../Body/MainFooter';
 
 // Bootstrap
 import {Row, Col} from 'react-bootstrap';
@@ -54,6 +55,8 @@ function L14_2() {
         </Row>
 
         <hr />
+
+        <Footer prev="/lekcija14" next="/lekcija15" />
 
         </React.Fragment>
     );

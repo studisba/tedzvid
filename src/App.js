@@ -2,7 +2,7 @@ import React from 'react';
 import Home from './Body/HomePage';
 import Header from './Body/MainHeader';
 
-import { L1, L2, L3, L4, L5, L6, L7, L8, L9, L10, L11, L12, L13, L14, L14_2 } from './Helpers/LessonsHelper';
+import { L1, L2, L3, L4, L5, L6, L7, L8, L9, L10, L11, L12, L13, L14, L14_2, L15 } from './Helpers/LessonsHelper';
 
 import Container from 'react-bootstrap/Container';
 import { BrowserRouter, Route } from 'react-router-dom';
@@ -29,6 +29,7 @@ function App() {
         <Route path="/lekcija13" component={L13}/>
         <Route path="/lekcija14" component={L14}/>
         <Route path="/lekcija14_2" component={L14_2}/>
+        <Route path="/lekcija15" component={L15}/>
 
       </Container>
     </BrowserRouter>
