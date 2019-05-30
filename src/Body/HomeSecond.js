@@ -25,10 +25,10 @@ function HomeSecond() {
 
         <Row className="homearea mt-4">
             <Col>
-                <Link to="/lekcija3" style={{ color: 'inherit' }}><Card>
+                <Link to="/lekcija15" style={{ color: 'inherit' }}><Card>
                     <Card.Body>
-                        <Card.Title>IDGAM MISLEJN <Badge className="imelekcije" variant="light">Lekcija 15</Badge></Card.Title>
-                        <Card.Subtitle className="mb-2 text-muted">Uklapanje istih harfova</Card.Subtitle>
+                        <Card.Title>IDGAM MUTEDŽANISEJN <Badge className="imelekcije" variant="light">Lekcija 15</Badge></Card.Title>
+                        <Card.Subtitle className="mb-2 text-muted">Uklapanje srodnih harfova</Card.Subtitle>
                     </Card.Body>
                 </Card></Link>
             </Col>

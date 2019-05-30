@@ -1,0 +1,108 @@
+{
+    "row1": [
+        {
+            "id": 1,
+            "url": "../assets/audio/l15/1.mp3",
+            "highlight": "دْتُـ",
+            "word": "عَــبَــدْتُـمْ",
+            "after": " čita se: "
+        },
+        {
+            "id": 2,
+            "url": "../assets/audio/l15/2.mp3",
+            "highlight": "َـتُّ",
+            "word": "عَبَـتُّمْ",
+            "after": null
+        }
+    ],
+    "row2": [
+        {
+            "id": 4,
+            "url": "../assets/audio/l15/4.mp3",
+            "highlight": "تْ طَٓ",
+            "word": "وَقَالَتْ طَٓائِفَةٌ مِنْ أَهْلِ الْكِتَابِ",
+            "after": " ; "
+        },
+        {
+            "id": 3,
+            "url": "../assets/audio/l15/3.mp3",
+            "highlight": "دْتُ",
+            "word": "وَلَآ أَنَا عَابِدٌ مَا عَبَدْتُـمْ",
+            "after": null
+        }
+    ],
+    "row3": [
+        {
+            "id": 5,
+            "url": "../assets/audio/l15/5.mp3",
+            "highlight": "ذْ ظَ",
+            "word": "إِذْ ظَــلَـمُوا",
+            "after": " čita se: "
+        },
+        {
+            "id": 6,
+            "url": "../assets/audio/l15/6.mp3",
+            "highlight": "ظَّـ",
+            "word": "إِظَّـلَمُوا",
+            "after": null
+        }
+    ],
+    "row4": [
+        {
+            "id": 8,
+            "url": "../assets/audio/l15/8.mp3",
+            "highlight": "ثْ ذٰ",
+            "word": "يَلْهَثْ ذٰلِكَ",
+            "after": " ; "
+        },
+        {
+            "id": 7,
+            "url": "../assets/audio/l15/7.mp3",
+            "highlight": "ذْ ظَ",
+            "word": "وَلَوْ أَنَّهُمْ إِذْ ظَلَمُٓوا أَنْفُسَهُمْ",
+            "after": null
+        }
+    ],
+    "row5": [
+        {
+            "id": 9,
+            "url": "../assets/audio/l15/9.mp3",
+            "highlight": "بْ مَ",
+            "word": "يَا بُــنَـيَّ ارْكَبْ مَعَــنَا",
+            "after": " čita se: "
+        },
+        {
+            "id": 10,
+            "url": "../assets/audio/l15/10.mp3",
+            "highlight": "مَّ",
+            "word": "يَا بُــنَـيَّ ارْكَمَّعَــنَا",
+            "after": null
+        }
+    ],
+    "row6": [
+        {
+            "id": 11,
+            "url": "../assets/audio/l15/11.mp3",
+            "highlight": "بْ مَ",
+            "word": "يَا بُنَيَّ ارْكَبْ مَعَنَا وَلَا تَكُنْ مَعَ الْكَافِرِينَ",
+            "after": null
+        }
+    ],
+    "multirow": {
+        "row2": [
+            {
+                "id": 6,
+                "url": "../assets/audio/xx/6.mp3",
+                "highlight": "ـقْ",
+                "word": "لِتَـقْرَأَهُ عَلَى النَّاسِ",
+                "after": null
+            },
+            {
+                "id": 601,
+                "highlight": "قْ",
+                "word": "وَقُرْاٰنًا فَرَقْـنَاهُ",
+                "after": null
+            }
+        ]
+    }
+}

@@ -90,6 +90,51 @@
             "after": null
         }
     ],
+    "row8": [
+        {
+            "id": 24,
+            "url": "../assets/audio/l14/24.mp3",
+            "highlight": "رِ",
+            "word": "مِنْ شَـرِّ مَا خَلَقَ",
+            "after": null
+        }
+    ],
+    "row9": [
+        {
+            "id": 23,
+            "url": "../assets/audio/l14/23.mp3",
+            "highlight": "رِ",
+            "word": "رِ",
+            "after": null
+        }
+    ],
+    "row10": [
+        {
+            "id": 25,
+            "url": "../assets/audio/l14/25.mp3",
+            "highlight": "ذِر",
+            "word": "أَنْ أَنْـذِرْ قَـوْمَكَ مِنْ قَـبْلْ",
+            "after": null
+        }
+    ],
+    "row11": [
+        {
+            "id": 26,
+            "url": "../assets/audio/l14/26.mp3",
+            "highlight": "حِجْرْ",
+            "word": "هَلْ فِي ذٰلِكَ قَسَمٌ لِـذِي حِجْرْ",
+            "after": null
+        }
+    ],
+    "row12": [
+        {
+            "id": 27,
+            "url": "../assets/audio/l14/27.mp3",
+            "highlight": "خَيْرْ",
+            "word": "فَهُوَ خَيْرْ",
+            "after": null
+        }
+    ],
     "multirow": {
         "row2": [
             {

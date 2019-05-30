@@ -12,5 +12,7 @@ import L11 from '../Lessons/Lesson11';
 import L12 from '../Lessons/Lesson12';
 import L13 from '../Lessons/Lesson13';
 import L14 from '../Lessons/Lesson14';
+import L14_2 from '../Lessons/Lesson14_2';
+import L15 from '../Lessons/Lesson15';
 
-export { L1, L2, L3, L4, L5, L6, L7, L8, L9, L10, L11, L12, L13, L14 }
+export { L1, L2, L3, L4, L5, L6, L7, L8, L9, L10, L11, L12, L13, L14, L14_2, L15 }
