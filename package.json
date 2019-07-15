@@ -1,7 +1,7 @@
 {
-  "name": "tedzvid-react",
-  "version": "0.1.0",
-  "private": true,
+  "name": "tedzvid",
+  "version": "1.0.0",
+  "private": false,
   "homepage": "https://studisba.github.io/tedzvid",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.18",
