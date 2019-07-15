@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tedzvid/static/css/main.75194660.chunk.css",
-    "main.js": "/tedzvid/static/js/main.b07ba80b.chunk.js",
-    "main.js.map": "/tedzvid/static/js/main.b07ba80b.chunk.js.map",
+    "main.js": "/tedzvid/static/js/main.0e9819f2.chunk.js",
+    "main.js.map": "/tedzvid/static/js/main.0e9819f2.chunk.js.map",
     "runtime~main.js": "/tedzvid/static/js/runtime~main.c894e1fc.js",
     "runtime~main.js.map": "/tedzvid/static/js/runtime~main.c894e1fc.js.map",
     "static/js/2.b0f7c6d2.chunk.js": "/tedzvid/static/js/2.b0f7c6d2.chunk.js",
     "static/js/2.b0f7c6d2.chunk.js.map": "/tedzvid/static/js/2.b0f7c6d2.chunk.js.map",
     "index.html": "/tedzvid/index.html",
-    "precache-manifest.697a3477dce8ce14f229b060a64257df.js": "/tedzvid/precache-manifest.697a3477dce8ce14f229b060a64257df.js",
+    "precache-manifest.3e1b7f6e643e27f1ad6577efd7e115ac.js": "/tedzvid/precache-manifest.3e1b7f6e643e27f1ad6577efd7e115ac.js",
     "service-worker.js": "/tedzvid/service-worker.js",
     "static/css/main.75194660.chunk.css.map": "/tedzvid/static/css/main.75194660.chunk.css.map"
   }
