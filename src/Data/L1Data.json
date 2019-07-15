@@ -2,7 +2,7 @@
     "row1": [
         {
             "id": 1,
-            "url": "../assets/audio/l1/1.wav",
+            "url": "./assets/audio/l1/1.wav",
             "highlight": "قَ",
             "word": "مَاخَلَقَ",
             "after": " čita se: "
