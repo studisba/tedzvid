@@ -2,7 +2,7 @@
     "row1": [
         {
             "id": 1,
-            "url": "../assets/audio/l14/1.mp3",
+            "url": "./assets/audio/l14/1.mp3",
             "highlight": "رَ",
             "word": "رَ",
             "after": null
@@ -11,7 +11,7 @@
     "row2": [
         {
             "id": 2,
-            "url": "../assets/audio/l14/2.mp3",
+            "url": "./assets/audio/l14/2.mp3",
             "highlight": "رُ",
             "word": "رُ",
             "after": null
@@ -20,14 +20,14 @@
     "row3": [
         {
             "id": 3,
-            "url": "../assets/audio/l14/3.mp3",
+            "url": "./assets/audio/l14/3.mp3",
             "highlight": "رَ",
             "word": "أَلَـمْ تَرَ",
             "after": " ; "
         },
         {
             "id": 4,
-            "url": "../assets/audio/l14/4.mp3",
+            "url": "./assets/audio/l14/4.mp3",
             "highlight": "رُ",
             "word": "رُبـَمَا",
             "after": null
@@ -36,14 +36,14 @@
     "row4": [
         {
             "id": 5,
-            "url": "../assets/audio/l14/5.mp3",
+            "url": "./assets/audio/l14/5.mp3",
             "highlight": "تَرْ",
             "word": "تَرْجُفُ",
             "after": " ; "
         },
         {
             "id": 6,
-            "url": "../assets/audio/l14/6.mp3",
+            "url": "./assets/audio/l14/6.mp3",
             "highlight": "جُـر",
             "word": "فَاهْجُـرْ",
             "after": null
@@ -52,14 +52,14 @@
     "row5": [
         {
             "id": 7,
-            "url": "../assets/audio/l14/7.mp3",
+            "url": "./assets/audio/l14/7.mp3",
             "highlight": "قَــدْرْ",
             "word": "قَــدْرْ",
             "after": " ; "
         },
         {
             "id": 8,
-            "url": "../assets/audio/l14/8.mp3",
+            "url": "./assets/audio/l14/8.mp3",
             "highlight": "دُورْ",
             "word": "صُدُورْ",
             "after": null
@@ -68,7 +68,7 @@
     "row6": [
         {
             "id": 9,
-            "url": "../assets/audio/l14/9.mp3",
+            "url": "./assets/audio/l14/9.mp3",
             "highlight": "ارْ",
             "word": "لِمَنِ ارْتَضٰى",
             "after": " ; "
@@ -77,14 +77,14 @@
     "row7": [
         {
             "id": 10,
-            "url": "../assets/audio/l14/10.mp3",
+            "url": "./assets/audio/l14/10.mp3",
             "highlight": "رْطَا",
             "word": "قِرْطَاسٍ",
             "after": " ; "
         },
         {
             "id": 11,
-            "url": "../assets/audio/l14/11.mp3",
+            "url": "./assets/audio/l14/11.mp3",
             "highlight": "رْقَ",
             "word": "فِرْقَةٍ",
             "after": null
@@ -93,7 +93,7 @@
     "row8": [
         {
             "id": 24,
-            "url": "../assets/audio/l14/24.mp3",
+            "url": "./assets/audio/l14/24.mp3",
             "highlight": "رِ",
             "word": "مِنْ شَـرِّ مَا خَلَقَ",
             "after": null
@@ -102,7 +102,7 @@
     "row9": [
         {
             "id": 23,
-            "url": "../assets/audio/l14/23.mp3",
+            "url": "./assets/audio/l14/23.mp3",
             "highlight": "رِ",
             "word": "رِ",
             "after": null
@@ -111,7 +111,7 @@
     "row10": [
         {
             "id": 25,
-            "url": "../assets/audio/l14/25.mp3",
+            "url": "./assets/audio/l14/25.mp3",
             "highlight": "ذِر",
             "word": "أَنْ أَنْـذِرْ قَـوْمَكَ مِنْ قَـبْلْ",
             "after": null
@@ -120,7 +120,7 @@
     "row11": [
         {
             "id": 26,
-            "url": "../assets/audio/l14/26.mp3",
+            "url": "./assets/audio/l14/26.mp3",
             "highlight": "حِجْرْ",
             "word": "هَلْ فِي ذٰلِكَ قَسَمٌ لِـذِي حِجْرْ",
             "after": null
@@ -129,7 +129,7 @@
     "row12": [
         {
             "id": 27,
-            "url": "../assets/audio/l14/27.mp3",
+            "url": "./assets/audio/l14/27.mp3",
             "highlight": "خَيْرْ",
             "word": "فَهُوَ خَيْرْ",
             "after": null
@@ -139,7 +139,7 @@
         "row2": [
             {
                 "id": 6,
-                "url": "../assets/audio/l13/6.mp3",
+                "url": "./assets/audio/l13/6.mp3",
                 "highlight": "ـقْ",
                 "word": "لِتَـقْرَأَهُ عَلَى النَّاسِ",
                 "after": null

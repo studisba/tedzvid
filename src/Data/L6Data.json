@@ -2,28 +2,28 @@
     "row1": [
         {
             "id": 1,
-            "url": "../assets/audio/l6/1.mp3",
+            "url": "./assets/audio/l6/1.mp3",
             "highlight": "نْ نَ‍‍",
             "word": "مَ‍نْ نَ‍‍شَٓاءُ",
             "after": " čita se: "
         },
         {
             "id": 2,
-            "url": "../assets/audio/l6/2.mp3",
+            "url": "./assets/audio/l6/2.mp3",
             "highlight": "نَّ‍",
             "word": "مَ‍‍نَّ‍‍شَٓاءُ",
             "after": "break"
         },
         {
             "id": 3,
-            "url": "../assets/audio/l6/3.mp3",
+            "url": "./assets/audio/l6/3.mp3",
             "highlight": "ةً مِ‍",
             "word": "نِعْمَ‍‍ةً مِ‍‍نْهُ",
             "after": " čita se: "
         },
         {
             "id": 4,
-            "url": "../assets/audio/l6/4.mp3",
+            "url": "./assets/audio/l6/4.mp3",
             "highlight": "ةَ مِّ‍",
             "word": "نِعْمَ‍‍ةَ مِّ‍نْه",
             "after": null
@@ -32,14 +32,14 @@
     "row2": [
         {
             "id": 6,
-            "url": "../assets/audio/l6/6.mp3",
+            "url": "./assets/audio/l6/6.mp3",
             "highlight": "لٌ مِنْ مَ",
             "word": "فِي جِيدِهَا حَبْلٌ مِنْ مَسَدٍ",
             "after": " ; "
         },
         {
             "id": 5,
-            "url": "../assets/audio/l6/5.mp3",
+            "url": "./assets/audio/l6/5.mp3",
             "highlight": "ئًا نُ",
             "word": "لَـقَدْ جِئْتَ شَيْـئًا نُكْرًا",
             "after": null
@@ -48,7 +48,7 @@
     "row3": [
         {
             "id": 7,
-            "url": "../assets/audio/l6/7.mp3",
+            "url": "./assets/audio/l6/7.mp3",
             "highlight": "فًا مُـ",
             "word": "كَانَ حَنِيفًا مُـسْلِمًا",
             "after": null
@@ -69,7 +69,7 @@
     "vj1": [
         {
             "id": 9,
-            "url": "../assets/audio/l6/9.mp3",
+            "url": "./assets/audio/l6/9.mp3",
             "highlight": "لًا",
             "word": "وَقَالُوا نَحْنُ أَكْثَرُ أَمْـوَالًا  ",
             "after": " ۞ "
@@ -78,7 +78,7 @@
     "vj2": [
         {
             "id": 8,
-            "url": "../assets/audio/l6/8.mp3",
+            "url": "./assets/audio/l6/8.mp3",
             "highlight": "رًا يَ",
             "word": "مِثْقَالَ ذَرَّةٍ خَيْـرًا يَرَهُ",
             "after": null
@@ -93,7 +93,7 @@
     "vj3": [
         {
             "id": 10,
-            "url": "../assets/audio/l6/10.mp3",
+            "url": "./assets/audio/l6/10.mp3",
             "highlight": "شًا",
             "word": "اَلَّذِي جَعَلَ لَكُمُ الْأَرْضَ فِرَاشًا",
             "after": " ۞ "
@@ -102,7 +102,7 @@
     "vj4": [
         {
             "id": 11,
-            "url": "../assets/audio/l6/11.mp3",
+            "url": "./assets/audio/l6/11.mp3",
             "highlight": "دًا وَ",
             "word": "لَادًا وَمَا نَحْنُ بِمُعَذَّبِينَ",
             "after": " ۞ "
@@ -131,7 +131,7 @@
     "vj6": [
         {
             "id": 12,
-            "url": "../assets/audio/l6/12.mp3",
+            "url": "./assets/audio/l6/12.mp3",
             "highlight": "دٌ وَ",
             "word": "عْدٌ وَبَرْقٌ",
             "after": " ۞ "
@@ -152,7 +152,7 @@
     "vj7": [
         {
             "id": 14,
-            "url": "../assets/audio/l6/14.mp3",
+            "url": "./assets/audio/l6/14.mp3",
             "highlight": "وَ",
             "word": "إِلَىوَعَدَّدَهُ",
             "after": " ۞ "
@@ -173,7 +173,7 @@
     "vj8": [
         {
             "id": 13,
-            "url": "../assets/audio/l6/13.mp3",
+            "url": "./assets/audio/l6/13.mp3",
             "highlight": "نٌ مِ",
             "word": "ضْوَانٌ مِنَ اللّٰهِ",
             "after": " ۞ "

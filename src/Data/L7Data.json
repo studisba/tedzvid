@@ -2,28 +2,28 @@
     "row1": [
         {
             "id": 1,
-            "url": "../assets/audio/l7/1.mp3",
+            "url": "./assets/audio/l7/1.mp3",
             "highlight": "لٌ لِ",
             "word": "وَيْلٌ لِكُلِّ",
             "after": " čita se: "
         },
         {
             "id": 2,
-            "url": "../assets/audio/l7/2.mp3",
+            "url": "./assets/audio/l7/2.mp3",
             "highlight": "لّـِ",
             "word": "وَيْلُـلّـِكُلِّ",
             "after": " ; "
         },
         {
             "id": 3,
-            "url": "../assets/audio/l7/3.mp3",
+            "url": "./assets/audio/l7/3.mp3",
             "highlight": "نْ رَ",
             "word": "مِنْ رَبِّـهِمْ",
             "after": " čita se: "
         },
         {
             "id": 4,
-            "url": "../assets/audio/l7/4.mp3",
+            "url": "./assets/audio/l7/4.mp3",
             "highlight": "رَّ",
             "word": "مِرَّ بِّـهِمْ",
             "after": null
@@ -32,7 +32,7 @@
     "row2": [
         {
             "id": 5,
-            "url": "../assets/audio/l7/5.mp3",
+            "url": "./assets/audio/l7/5.mp3",
             "highlight": "رًا رَ",
             "word": "وَكَانَ اللّٰهُ غَفُورًا رَحِيمًا",
             "after": null
@@ -42,7 +42,7 @@
         "word1": [
             {
                 "id": 6,
-                "url": "../assets/audio/l7/4.mp3",
+                "url": "./assets/audio/l7/4.mp3",
                 "highlight": "نْ لَ",
                 "word": "يَكُنْ لَهُ وَلَدٌ",
                 "after": " ; "
@@ -57,7 +57,7 @@
         "word2": [
             {
                 "id": 7,
-                "url": "../assets/audio/l7/7.mp3",
+                "url": "./assets/audio/l7/7.mp3",
                 "highlight": "لٌ لَ",
                 "word": "أَيْدِيهِمْ وَوَيْلٌ لَهُمْ مِمَّا يَكْسِبُونَ",
                 "after": null

@@ -2,28 +2,28 @@
     "row1": [
         {
             "id": 1,
-            "url": "../assets/audio/l4/1.mp3",
+            "url": "./assets/audio/l4/1.mp3",
             "highlight": "ذْ ذَ",
             "word": "إِذْ ذَهَبَ",
             "after": " čita se: "
         },
         {
             "id": 2,
-            "url": "../assets/audio/l4/2.mp3",
+            "url": "./assets/audio/l4/2.mp3",
             "highlight": "ذَّ",
             "word": "إِذَّهَبَ",
             "after": " ; "
         },
         {
             "id": 3,
-            "url": "../assets/audio/l4/3.mp3",
+            "url": "./assets/audio/l4/3.mp3",
             "highlight": "لْ لَ",
             "word": "قُــلْ لَــمْ",
             "after": " čita se: "
         },
         {
             "id": 4,
-            "url": "../assets/audio/l4/4.mp3",
+            "url": "./assets/audio/l4/4.mp3",
             "highlight": "لَّ",
             "word": "قُلَّمْ",
             "after": null
@@ -32,21 +32,21 @@
     "row2": [
         {
             "id": 5,
-            "url": "../assets/audio/l4/5.mp3",
+            "url": "./assets/audio/l4/5.mp3",
             "highlight": "هْهُ",
             "word": "يُكْرِهْهُنَّ",
             "after": " ; "
         },
         {
             "id": 6,
-            "url": "../assets/audio/l4/6.mp3",
+            "url": "./assets/audio/l4/6.mp3",
             "highlight": "ذْ ذَ",
             "word": "إِذْ ذَهَبَ مُغَاضِبًا",
             "after": " ; "
         },
         {
             "id": 7,
-            "url": "../assets/audio/l4/7.mp3",
+            "url": "./assets/audio/l4/7.mp3",
             "highlight": "لْ لِ",
             "word": "قُلْ لِمَنِ الْأَرْضُ",
             "after": null
@@ -55,14 +55,14 @@
     "row3": [
         {
             "id": 9,
-            "url": "../assets/audio/l4/9.mp3",
+            "url": "./assets/audio/l4/9.mp3",
             "highlight": "رْ رَ",
             "word": "وَاذْكُـرْ رَبَّـكَ كَـثِـيـرًا",
             "after": " ; "
         },
         {
             "id": 8,
-            "url": "../assets/audio/l4/8.mp3",
+            "url": "./assets/audio/l4/8.mp3",
             "highlight": "بْ بِـ",
             "word": "إِذْهَـبْ بِـكِـتَابِي هٰـذَا",
             "after": null

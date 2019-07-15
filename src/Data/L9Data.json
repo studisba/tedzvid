@@ -2,14 +2,14 @@
     "row1": [
         {
             "id": 1,
-            "url": "../assets/audio/l9/1.mp3",
+            "url": "./assets/audio/l9/1.mp3",
             "highlight": "نْهُ",
             "word": "عَنْهُ",
             "after": " ; "
         },
         {
             "id": 2,
-            "url": "../assets/audio/l9/2.mp3",
+            "url": "./assets/audio/l9/2.mp3",
             "highlight": "نْ أَ",
             "word": "قَالَ أَعُوذُ بِاللّٰهِ أَنْ أَكُونَ مِنَ الْجَاهِلِينَ",
             "after": null
@@ -18,7 +18,7 @@
     "row2": [
         {
             "id": 4,
-            "url": "../assets/audio/l9/4.mp3",
+            "url": "./assets/audio/l9/4.mp3",
             "highlight": "ـًا حَ",
             "word": "عَلِيمـًا حَكِيمًا",
             "after": " ; "
@@ -27,28 +27,28 @@
     "row3": [
         {
             "id": 5,
-            "url": "../assets/audio/l9/5.mp3",
+            "url": "./assets/audio/l9/5.mp3",
             "highlight": "نْوَ",
             "word": "قِنْوَانٌ",
             "after": " ; "
         },
         {
             "id": 6,
-            "url": "../assets/audio/l9/6.mp3",
+            "url": "./assets/audio/l9/6.mp3",
             "highlight": "نْوَ",
             "word": "صِنْوَانٌ",
             "after": " ; "
         },
         {
             "id": 7,
-            "url": "../assets/audio/l9/7.mp3",
+            "url": "./assets/audio/l9/7.mp3",
             "highlight": "نْيَ",
             "word": "بُنْيَانٌ",
             "after": " ; "
         },
         {
             "id": 8,
-            "url": "../assets/audio/l9/8.mp3",
+            "url": "./assets/audio/l9/8.mp3",
             "highlight": "ُّنْيَ",
             "word": "اَلدُّنْيَا",
             "after": " ; "
@@ -58,7 +58,7 @@
         "word1": [
             {
                 "id": 3,
-                "url": "../assets/audio/l9/3.mp3",
+                "url": "./assets/audio/l9/3.mp3",
                 "highlight": "نْهُ",
                 "word": "نَ عَنْهُ",
                 "after": null
