@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "02ea8256f61e0b417a0d258292d5fc6c",
+    "revision": "ac1ca58de477234df2adb3d7fb9fe8a4",
     "url": "/tedzvid/index.html"
   },
   {
-    "revision": "c8c22105fd11bd2ae2a1",
+    "revision": "fc15aeefddbc80f13694",
     "url": "/tedzvid/static/css/main.75194660.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tedzvid/static/js/2.b0f7c6d2.chunk.js"
   },
   {
-    "revision": "c8c22105fd11bd2ae2a1",
-    "url": "/tedzvid/static/js/main.23cac7f4.chunk.js"
+    "revision": "fc15aeefddbc80f13694",
+    "url": "/tedzvid/static/js/main.fa15ef3d.chunk.js"
   },
   {
     "revision": "6038425b23784e662bdc",
