@@ -11,7 +11,7 @@ const useAudio = (url, audioPlayed) => {
       if (playing) {
         audio.play();
         audio.onended = () => { setPlaying(!playing); };
-        audio.volume = 0.1;
+        audio.volume = 1; // Jačina zvuka
       } else {
         audio.pause();
         audio.currentTime = 0;
